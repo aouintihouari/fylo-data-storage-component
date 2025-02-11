@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Fylo data storage component</title>
+  </head>
+  <body>
+    <main class="container">
+      <aside class="dashboard">
+        <header class="header">
+          <img src="images/logo.svg" alt="" class="logo" />
+        </header>
+        <div class="icons__container">
+          <span class="icon__container">
+            <img class="icon" src="images/icon-document.svg" alt="icon" />
+          </span>
+          <span class="icon__container">
+            <img class="icon" src="images/icon-folder.svg" alt="icon" />
+          </span>
+          <span class="icon__container">
+            <img class="icon" src="images/icon-upload.svg" alt="icon" />
+          </span>
+        </div>
+      </aside>
+      <section class="storage">
+        <h1 class="storage__title">
+          You’ve used <span class="bold">815 GB</span> of your storage
+        </h1>
+        <div class="progress-bar-container">
+          <progress class="progress-bar" value="815" max="1000"></progress>
+          <span class="progress-indicator"></span>
+        </div>
+        <div class="numbers"><span>0 GB</span> <span>1000 GB</span></div>
+        <div class="tooltip">
+          <span class="storage__quantity">185</span>
+          <span class="storage__left">gb left</span>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
